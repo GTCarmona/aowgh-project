@@ -2,6 +2,10 @@
 // Definition of variables
 $primary: #32c3ff;
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Montserrat', sans-serif;
 // ----------------------------------------
 // To install Boostrap:
 // 1) Run in the client folder: $ npm i bootstrap
@@ -20,7 +24,7 @@ $primary: #32c3ff;
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .info {
@@ -47,7 +51,7 @@ body {
   }
 
   .App-header {
-    background-color: $primary;
+    background-color: purple;
     padding: 20px;
     color: white;
 
@@ -63,13 +67,17 @@ body {
   }
 
   .App-title {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .App-intro {
     font-size: large;
   }
-
+  .App-logo {
+    width: 10vw;
+    height: 20vh;
+    border-radius: 100px;
+  }
   @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);
@@ -91,9 +99,3 @@ body {
 
 // --------------------
 // Style for Secret component
-.Secret {
-  .result {
-    font-size: 1.2em;
-    color: $primary;
-  }
-}

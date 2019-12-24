@@ -1,6 +1,6 @@
 import React from 'react'
 import api from '../api'
-import logo from '../logo.svg'
+import logo from '../logo.jpeg'
 import { Link, NavLink } from 'react-router-dom'
 import { withRouter } from 'react-router'
 
